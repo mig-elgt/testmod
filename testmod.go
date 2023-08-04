@@ -1,9 +1,11 @@
 package testmod
 
+import "rsc.io/quote/v3"
+
 func Hello() string {
-	return "Hello, You!"
+	return quote.HelloV3()
 }
 
-func Goodbye() string {
-	return "Goodbye for now!"
+func Proverb() string {
+	return quote.Concurrency()
 }
